@@ -1,0 +1,797 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*头部开始*/
+header{
+    width: 100%;
+    height: 60px;
+    background: #333;
+}
+.header_nav{
+    width: 650px;
+    height:30px;
+    float: right;
+    font-size: 16px;
+    color: #ffffff;
+    border-bottom: 2px solid rgba(255,255,255,0);
+    font-family: "Arial", Helvetica, Arial, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.header_nav li:hover{
+    border-bottom: 1px solid rgba(255,255,255,1);
+}
+.header_nav li:hover a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.header_nav li{
+    float: left;
+    margin-right: 30px;
+    padding-bottom: 8px;
+}
+a{
+    color: #ffffff;
+}
+/*头部结束*/
+/*首页开始*/
+.page{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.page_word{
+    width: 750px;
+    height: 50px;
+    /*background: #2196f3;*/
+    font-size: 48px;
+    color: #ffffff;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.page_word1{
+    width: 500px;
+    height: 40px;
+    /*background: #2196f3;*/
+    font-size: 28px;
+    color: rgba(255,255,255,0.8);
+    position: absolute;
+    top: 420px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.page_block{
+    width: 100px;
+    height: 60px;
+    background: #333;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-size: 20px;
+    font-family: "Arial", Helvetica, Arial, Verdana, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    line-height: 60px;
+}
+.nav{
+    width:480px;
+    height: 60px;
+    /*background: #83c44e;*/
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 16px;
+    font-family: "Arial", Helvetica, Arial, Verdana, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    line-height: 60px;
+}
+.nav li{
+    float: left;
+    margin-right: 20px;
+}
+.page_hide{
+    width: 100%;
+    height: auto;
+}
+.pa_hi_block{
+    width: 120px;
+    height: 80px;
+    background: #333;
+    margin: 20px auto;
+    font-size: 20px;
+    font-family: "Arial", Helvetica, Arial, Verdana, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    line-height: 80px;
+}
+.pa_hi_page{
+    width: 80px;
+    height: 50px;
+    background: #333;
+    margin: 20px auto;
+    font-size: 16px;
+    font-family: "Arial", Helvetica, Arial, Verdana, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+/*首页结束*/
+/*个人资料开始*/
+.introduce{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+}
+.intro_all{
+    /*width: 80%;*/
+    height: auto;
+    margin: 0 auto;
+}
+.intro_title{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.intro_word{
+    width: 100%;
+    padding-bottom: 4px;
+    font-size: 36px;
+    color: #333333;
+    text-align: center;
+    font-family: "Arial",Helvetica,Arial,Verdana,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.container_intro,.container_intro li .row{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.row ul li{
+    width: 100%;
+    height: 28px;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.intro_wsize{
+    width: 80%;
+    height: 80%;
+}
+.intro_size{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    padding: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.intro_size_posi{
+    display: flex;
+    justify-content: center;
+}
+.intro_h1{
+    width: 100%;
+    height: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 黑体;
+    color: rgb(51, 51, 51);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.intro_p{
+    width: 100%;
+    height: auto;
+    margin-bottom: 180px;
+    font-size: 14px;
+    color: #696969;
+    line-height: 1.8;
+    font-family: "Arial",Helvetica,Arial,Verdana,sans-serif;
+}
+/*个人资料结束*/
+/*知识技能开始*/
+.skill{
+    width: 100%;
+    height: auto;
+    background: #eeeeee;
+}
+.skill_all{
+    /*width: 80%;*/
+    height: auto;
+    margin: 0 auto;
+}
+.skill_title{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 36px;
+}
+.title_word{
+    width: 100%;
+    padding-bottom: 4px;
+    font-size: 36px;
+    color: #333333;
+    text-align: center;
+    font-family: "Arial",Helvetica,Arial,Verdana,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.title_block{
+    width: 100%;
+    height: 33px;
+    text-align: center;
+}
+.container_sk,.container_sk li .row{
+    /*width: 80%;*/
+    height: auto;
+    margin: 0 auto;
+}
+.English_tit{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+.English_tit span1{
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.5em;
+    font-weight: 700;
+    font-family: 黑体;
+}
+.English_box{
+    width: 100%;
+    height: 30px;
+    background: #cccccc;
+    border-radius: 5px;
+}
+.Eng_box_col{
+    width:85%;
+    height: 30px;
+    background: #117d8b;
+    border-radius: 5px;
+}
+.CAD_tit{
+    width: 100%;
+    height: auto;
+    padding-top: 8px;
+}
+.CAD_tit span1{
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.5em;
+    font-weight: 700;
+    font-family: 黑体;
+}
+.CAD_box{
+    width: 100%;
+    height: 30px;
+    background: #cccccc;
+    border-radius: 5px;
+}
+.CAD_box_col{
+    width:71%;
+    height: 30px;
+    background: #117d8b;
+    border-radius: 5px;
+}
+.PDM_box_col{
+    width:77%;
+    height: 30px;
+    background: #117d8b;
+    border-radius: 5px;
+}
+.CAPP_box_col{
+    width:64%;
+    height: 30px;
+    background: #117d8b;
+    border-radius: 5px;
+}
+.Photoshop_box_col{
+    width:58%;
+    height: 30px;
+    background: #117d8b;
+    border-radius: 5px;
+}
+
+.col-1{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.skill_img1{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+.col-2{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+    margin-bottom: 110px;
+}
+.col-lg-3{
+    padding-right: 0;
+    padding-left: 0;
+}
+/*知识技能结束*/
+/*个人作品开始*/
+.works{
+    width: 100%;
+    height: auto;
+    background: url("../img/banner.png");
+}
+.works_all{
+    width: 90%;
+    height: auto;
+    /*background: palegreen;*/
+    margin: 0 auto;
+}
+.works_title{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 36px;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Arial",Helvetica,Arial,Verdana,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.container_wo,.container_wo li .row{
+    width: 100%;
+    height: auto;
+}
+.works1_size_all{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.works1_size{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.works1_size1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+}
+/*个人作品结束*/
+/*联系我开始*/
+.insert{
+    width: 100%;
+    height: auto;
+    background: #333;
+    margin-top: -10px;
+}
+.insert_all{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.container_in,.container_in li .row{
+    width: 100%;
+    height: auto;
+}
+.iconall{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 50px;
+    /*background: #5da5fe;*/
+}
+.icon-plane{
+    width: 100%;
+    height: auto;
+    font-size: 80px;
+    color: #ffffff;
+}
+.insert_h1{
+    width: 100%;
+    height: auto;
+    font-size: 26px;
+    color: #ffffff;
+    margin-top: 70px;
+}
+.insert_h2{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+.insert_butt{
+    width: 100%;
+    height:auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+.insert_butt1 {
+    width: 112px;
+    height: 40px;
+    background: #5c8ab8;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 5px;
+    border-style: none;
+}
+/*联系我结束*/
+
+/*图片展示开始*/
+/*body{*/
+    /*background: url("../img/banner.png");*/
+/*}*/
+.display{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+}
+.display_all{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+.tit_all{
+    width: 100%;
+    height: auto;
+}
+.display_tit{
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.dis_pho{
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 100px;
+}
+.dis_size{
+    width:100%;
+    height: auto;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dis_pot{
+    width: 36px;
+    height: 14px;
+    /*background: pink;*/
+    margin: 20px auto 50px auto;
+
+}
+.dis_pot1{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #7a8c90;
+    float: left;
+    margin-right: 10px;
+}
+.dis_pot1:hover{
+    background: #333333;
+}
+/*图片展示结束*/
+
+/*底部开始*/
+footer{
+    width: 100%;
+    height: auto;
+    background: #333;
+}
+.footer_all{
+    /*width: 80%;*/
+    height: auto;
+    margin: 0 auto;
+}
+.footer_title{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 36px;
+}
+.contact_word{
+    width: 100%;
+    padding-bottom: 4px;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Arial",Helvetica,Arial,Verdana,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.contact_block{
+    width: 100%;
+    height: 33px;
+    text-align: center;
+}
+.container_fo,.container_fo li .row{
+    /*width: 100%;*/
+    height: auto;
+}
+.phone_numb,.email{
+    width: 100%;
+    /*height: 24px;*/
+    padding-bottom: 4px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Arial",Helvetica,Arial,Verdana,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.email{
+    /*height: 48px;*/
+    padding-bottom: 24px;
+}
+.QR{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.QR_size{
+    height: 168px;
+    width: 168px;
+}
+.explain{
+    width: 80%;
+    /*height: 72px;*/
+    padding-bottom: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    word-spacing: normal;
+    font-family: "Arial",Helvetica,Arial,Verdana,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+}
+.inp_all{
+    width: 100%;
+    height: auto;
+}
+.inp_both{
+    width: 100%;
+    height: 30px;
+}
+.inp_name{
+    width: 80px;
+    height: 28px;
+    float: left;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 微软雅黑;
+}
+.inp_put{
+    width: 60%;
+    height: 28px;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-bottom: 3px;
+    float: left;
+    font-size: 14px;
+
+}
+.inp_both1{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+.inp_both2 {
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+}
+.inp_put1{
+    width: 60%;
+    height: 58px;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-bottom: 3px;
+    float: left;
+    font-size: 14px;
+}
+.inp_name1{
+    width: 80px;
+    height: 28px;
+    float: left;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 微软雅黑;
+    line-height: 1;
+}
+.validate{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+.validate_img{
+    display: block;
+    width: 80px;
+    height: 40px;
+    margin-top: 2px;
+    margin-left: 80px;
+}
+.submit{
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+}
+.button_sub{
+    width: 70px;
+    height: 28px;
+    background: #117d8b;
+    color: #ffffff;
+    border: 1px solid #929191;
+
+}
+/*底部结束*/
+.copyright{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    background: #333;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+.copyright_nav{
+    width: 50px;
+    padding-bottom: 20px;
+    float: right;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+.copyright_nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/*<768px*/
+@media screen and (max-width: 768px){
+    .container_sk,.container_sk li .row{
+        padding: 0 10px;
+    }
+    .footer_all{
+        padding: 0 10px;
+    }
+    .intro_all{
+        padding: 0 10px;
+    }
+    .display_all{
+        width: 95%;
+    }
+    .page{
+        display: none;
+    }
+    .page_hide{
+        display: block;
+    }
+}
+/*≥768px*/
+@media screen and (min-width: 768px){
+    .container_sk,.container_sk li .row{
+        padding: 0 10px;
+    }
+    .footer_all{
+        padding: 0 10px;
+    }
+    .intro_all{
+        padding: 0 10px;
+    }
+    .display_all{
+        width: 95%;
+    }
+    .page{
+        display: none;
+    }
+    .page_hide{
+        display: block;
+    }
+}
+/*≥992px*/
+@media screen and (min-width: 992px){
+    .container_sk,.container_sk li .row{
+        width: 80%;
+    }
+    .footer_all{
+        width: 80%;
+    }
+    .intro_all{
+        width: 80%;
+    }
+    .display_all{
+        width: 90%;
+    }
+    .page_word{
+        width: 600px;
+        font-size: 40px;
+    }
+    .page_word1{
+        width: 400px;
+        font-size: 22px;
+    }
+    .page{
+        display: block;
+    }
+    .page_hide{
+        display: none;
+    }
+}
+/*≥1200px*/
+@media screen and (min-width: 1200px){
+    .skill_all{
+        width: 80%;
+    }
+    .footer_all{
+        width: 80%;
+    }
+    .intro_all{
+        width: 80%;
+    }
+    .display_all{
+        width: 80%;
+    }
+    .page_word{
+        width: 750px;
+        font-size: 48px;
+    }
+    .page_word1{
+        width: 500px;
+        font-size: 28px;
+    }
+    .page{
+        display: block;
+    }
+    .page_hide{
+        display: none;
+    }
+}
