@@ -715,6 +715,9 @@ footer{
     .page_hide{
         display: block;
     }
+    header{
+        display:none;
+    }
 }
 /*≥768px*/
 @media screen and (min-width: 768px){
@@ -735,6 +738,9 @@ footer{
     }
     .page_hide{
         display: block;
+    }
+    header{
+        display:none;
     }
 }
 /*≥992px*/
@@ -765,6 +771,9 @@ footer{
     .page_hide{
         display: none;
     }
+    header{
+        display: block;
+    }
 }
 /*≥1200px*/
 @media screen and (min-width: 1200px){
@@ -793,5 +802,8 @@ footer{
     }
     .page_hide{
         display: none;
+    }
+    header{
+        display: block;
     }
 }
