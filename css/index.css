@@ -241,6 +241,14 @@ a{
     width: 100%;
     height: 33px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.tit_block{
+    width: 100px;
+    height: 9px;
+    background: #CE5F39;
 }
 .container_sk,.container_sk li .row{
     /*width: 80%;*/
@@ -268,7 +276,7 @@ a{
 .Eng_box_col{
     width:85%;
     height: 30px;
-    background: #117d8b;
+    background: #CE5F39;
     border-radius: 5px;
 }
 .CAD_tit{
@@ -292,25 +300,25 @@ a{
 .CAD_box_col{
     width:71%;
     height: 30px;
-    background: #117d8b;
+    background: #CE5F39;
     border-radius: 5px;
 }
 .PDM_box_col{
     width:77%;
     height: 30px;
-    background: #117d8b;
+    background: #CE5F39;
     border-radius: 5px;
 }
 .CAPP_box_col{
     width:64%;
     height: 30px;
-    background: #117d8b;
+    background: #CE5F39;
     border-radius: 5px;
 }
 .Photoshop_box_col{
     width:58%;
     height: 30px;
-    background: #117d8b;
+    background: #CE5F39;
     border-radius: 5px;
 }
 
@@ -371,18 +379,54 @@ a{
 }
 .works1_size_all{
     width: 80%;
-    height: auto;
+    height: 560px;
     margin: 0 auto;
+    position: relative;
 }
+.zhezhao{
+    width:252.36px;
+    height: 253.3px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    line-height: 253.36px;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    /*display: none;*/
+}
+.zhezhao1{
+    width:252.36px;
+    height: 253.36px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    line-height: 253.36px;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 283.36px;
+    left: 0;
+    z-index: 10;
+    /*display: none;*/
+}
+
 .works1_size{
     width: 100%;
     height: auto;
     margin-bottom: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .works1_size1{
     width: 100%;
     height: auto;
     margin-bottom: 80px;
+    position: absolute;
+    top: 283.36px;
+    left: 0;
 }
 /*个人作品结束*/
 /*联系我开始*/
